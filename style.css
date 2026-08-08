@@ -1,0 +1,106 @@
+/* Configuración general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f14;
+  color: #e0e0e0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 3px solid #c9a050;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #f1c40f;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-shadow: 2px 2px 8px #000;
+}
+
+header p {
+  color: #aaa;
+  font-size: 1.2em;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #16161e;
+  border-bottom: 1px solid #333;
+}
+
+nav a {
+  color: #ccc;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #c9a050;
+  color: #111;
+}
+
+/* Contenido Principal */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: #1a1a24;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 1px solid #2a2a38;
+}
+
+h2 {
+  color: #c9a050;
+  border-bottom: 2px solid #2a2a38;
+  padding-bottom: 10px;
+}
+
+/* Tarjetas de Miembros */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: #111118;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #c9a050;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+/* Listas */
+ul {
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0d;
+  color: #666;
+  border-top: 1px solid #222;
+}
